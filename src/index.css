@@ -18,7 +18,8 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: url("bg.png") var(--bg-primary-color) no-repeat center;
+  background: url("bg.png") no-repeat center;
+  background-size: cover;
 }
 
 .currency-converter {
