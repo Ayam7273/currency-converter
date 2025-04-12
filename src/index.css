@@ -32,6 +32,12 @@ body{
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+@media (max-width: 425px){
+  .currency-converter{
+    min-width: 350px;
+  }
+}
+
 .currency-converter .converter-title{
   color: var(--bg-white-color);
   font-size: 1.6rem;
